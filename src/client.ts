@@ -1,6 +1,6 @@
 import io from 'socket.io-client';
 
-const socket = io('http://localhost:3000');
+const socket = io('http://52.195.6.225:3000');
 
 socket.on('connect', () => {
   console.log('server connected...');
